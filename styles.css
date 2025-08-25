@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #36494e;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+  border: 2px solid #7e8ad1;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 6px;
+  background: #a9cef4;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
+  height: auto;
+  margin: 0px auto;
+  gap: 16px;
+  padding: 8px;
+  background-color: #597081;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  background: #a9cef4;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid #4f5681;
+  padding: 8px 20px 20px;
+}
+
+.section-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #4f6e83;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+ul {
+  padding-left: 1px; /* default is 40px */
+  margin: 0;
+  align-items: center;
+}
+
+.track {
+  list-style: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.track .title {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.25;
+  cursor: pointer;
+  align-items: center;
+}
+
+.track .title:hover{
+  text-decoration: underline;
+  text-decoration-color: #7e8ad1;
+  text-decoration-thickness: 2px;
+}
+
+.track .artist {
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: #222;
+  margin-top: 2px;
+}
+
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.album-grid a{
+  display: inline-block;
+}
+
+.album-grid img {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-grid img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.genre-tag {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 8px auto;
+  width: 130px;
+  text-align: center;
+}
+
+.genre-tag:hover {
+  background-color: #7e8ad1;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lyrics {
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 8px;
+  border-left: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.lyrics,
+.genre-tag,
+ul,
+li {
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
