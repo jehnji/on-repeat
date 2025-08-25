@@ -1,5 +1,9 @@
-# On Repeat
-A tiny, responsive music profile page built with plain **HTML + CSS**. It shows what I’m listening to, albums on rotation, favorite genres, and lyric snippets — in a simple 2×2 grid.
+# Jam Journal
+🎵 [Live Demo](https://jehnji.github.io/on-repeat/)  
+A tiny, responsive music profile page built with plain **HTML + CSS**.  
+It shows what I’m listening to, albums on rotation, favorite genres, and lyric snippets in a simple 2×2 grid.  
+
+I call it my “Jam Journal” because it’s a way to log what I’m into at the moment and share it visually.  
 
 ![Screenshot of On Repeat](assets/screenshot.png)
 
